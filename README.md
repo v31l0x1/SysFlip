@@ -11,6 +11,10 @@ Example:
   SysFlip rtkio.sys rtkio_modified.sys
 ```
 
+![Usage](Usage.png)
+
+![DriverLoad](DriverLoad.png)
+
 ### How it works
 
 Embeds random data into the certificate table of authenticode signed PE files. Since certain PE fields are excluded from hash calculation during signing, the file hash changes while the signature remains valid.
