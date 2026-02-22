@@ -1,6 +1,6 @@
 ## SysFlip
 
-Tool for modifying hash of signed driver files (sys, exe, dll) without breaking certificate validation by padding the WIN_CERTIFICATE structure with random bytes.
+A tool for modifying the hash of signed driver files (sys, exe, dll) without breaking certificate validation by padding the WIN_CERTIFICATE structure with random bytes. This tool can be used against EDR/AV solutions that block vulnerable drivers based on hash.
 
 ### Usage
 
